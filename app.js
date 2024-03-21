@@ -463,12 +463,11 @@
 
 
 // Task 4
-var higestRuns = prompt("Enter your average",100)
-var wickets = prompt("Enter your strike rate",100)
-if (higestRuns < wickets && wickets > higestRuns) {
-    alert("Congratulation! You're Bowling All rounder") 
+var highestRuns = prompt("What's your Highest Score",100)
+var wickets = prompt("How many Wickets you take ",50)
+if (highestRuns < wickets && wickets > highestRuns) {
+    alert("Congratulation! You're Selected As A All rounder") 
     }
 else {
-    alert("Need To Be Focus ON Batting");
+    alert("You're A Bowlling Allrounder & Need To Be Focus ON Batting Bettert Time");
 }
-
