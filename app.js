@@ -749,3 +749,123 @@
 //     mixArr.push (firstArr[i],secondArr[j])
 // }
 // }
+
+// ====== Chap 21 =======//
+
+// Task 1
+// first you not createaprompt waht userInput
+// var userInput = prompt("Enter your message");
+// console.log(userInput) 
+// // second you not write () round bracket after .toLowerCase function.
+// var allLower = userInput.toLowerCase();
+// console.log(allLower)
+
+// Task 2
+// var x = prompt("Enter your message","ABCD");
+// x = x.toLowerCase();
+// console.log(x);
+
+// Task 3
+// var y = prompt("Enter your message","abcd");
+// y = y.toUpperCase();
+// console.log(y);
+
+// Task 4
+// var x = prompt("Enter your message","ABCD");
+// console.log(x);
+// y = x.toLowerCase();
+// console.log(y);
+
+// Task 5
+// var userNames = [
+//     "Abeer","Bilal","Ali","Basit","Arshad","Umair",
+//     "Mohsin","Abduallah","Siddique",];
+//     console.log(userNames);
+// var firstNames = userNames[0].toLowerCase();  
+// console.log(firstNames);
+
+
+// Task 6
+// var y = prompt("Enter your name","abeer iqbal");
+// y = y.toUpperCase();
+// console.log(y);
+// Swal.fire(y) 
+
+// Task 7
+// var cityName = "kaRacHi";
+// console.log(cityName);
+// var c = cityName.slice(0,1);
+// firstLetter = c.toUpperCase();
+// console.log(firstLetter);
+// var l = cityName.slice(1,cityName.length);
+// remainLetter = l.toLowerCase();
+// console.log(remainLetter);
+// var cityName = firstLetter + remainLetter;
+// console.log(cityName);
+
+// ====== Chap 22-25  =======//
+
+// Task 1
+// var sameWords = "captain";
+// console.log(sameWords);
+// cutAp = sameWords.slice(1,3);
+// console.log(cutAp);
+
+// Task 2
+// var characters = "abc&123@mail.com";
+
+// Task 3
+// var animal = "elephant";
+// console.log(animal);
+// seg = animal.slice(2,6);
+// console.log(seg);
+
+// Task 4
+// var characters = "abc&123@mail.com";
+// var number = characters.length;
+// console.log(number);
+
+// Task 5
+// var characters = "abc&123@mail.com";
+// console.log(characters.length);
+// var chrac = characters.slice(0,1) + characters.slice(characters.length-3)
+// console.log(chrac);
+
+
+// Task 6
+// var text = "To be or not to be.";
+// console.log(text);
+// var indx = text.indexOf("be"); 
+// console.log(indx); // the value index of be is 3//
+
+// // Task 7.1
+// var text = "To be or not to be.";
+// console.log(text);
+// var indx = text.lastIndexOf("be"); 
+// console.log(indx); // the value last index of be is 16//
+// // Task 7.2
+// var text = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo sint beatae id, World War II natus ab incidunt fuga? Illo quod nulla quisquam deleniti cumque, ea eligendi aliquid dolorem laudantium!";
+// console.log(text);
+// var indx = text.indexOf("World War II"); 
+// console.log(indx);
+// var indx = text.lastIndexOf("World War II"); 
+// console.log(indx);
+
+// Task 8
+
+
+// Task 9
+
+    
+// Task 10
+
+
+// Task 11
+
+
+// Task 12
+// Task 13
+// Task 14
+// Task 15
+// Task 16
+// Task 17
