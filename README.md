@@ -1,2 +1,2 @@
 # tasksjava
-JavaScript assignment by Sir Basit T.T.S - 7to9
+JavaScript assignment of all chapters by Sir Basit T.T.S - 7to9
