@@ -23,8 +23,8 @@
 // var camelCase = "camel case have start first letter with small then other letetr is ";
 
 // Task 2
-// var Afor ;
-// Afor = "apple";
+// var aFor ;
+// aFor = "apple";
 // console.log(a);
 
 // Task 3
@@ -852,6 +852,16 @@
 // console.log(indx);
 
 // Task 8
+// var para = "Find the index of the first character of the last instance of 'go' in the string represented by the variable text and assign the number to the variable indx, which hasn't been declared beforehand"
+// console.log(para);
+// var indx = para.indexOf("go"); 
+// console.log(indx); // the value index of go is 63//
+
+// var text = "This is the logo of the company, it should go here and there. The logo should go with every page of the website.";
+
+// var lastIndex = text.lastIndexOf("go"); // Find the index of the last occurrence of "go"
+// var indx = lastIndex !== -1 ? lastIndex : "Not found"; // Check if "go" was found, assign index or "Not found"
+// console.log(indx);
 
 
 // Task 9
@@ -869,3 +879,226 @@
 // Task 15
 // Task 16
 // Task 17
+
+// ====== Chap 26  =======//
+
+// Task 1
+// Task 2
+// Task 3
+// Task 4
+// Task 5
+
+// ====== Chap 27  =======//
+
+// Task 1
+// Task 2
+// Task 3
+// Task 4
+
+// ====== Chap 28,29  =======//
+
+// Task 1
+// Task 2
+// Task 3
+// Task 4
+// Task 5
+// Task 6
+// Task 7
+
+// ====== Chap 30  =======//
+
+// Task 1
+// Task 2
+// Task 3
+// Task 4
+
+// ====== Chap 31-34  =======//
+
+// Task 1
+// Task 2
+// Task 3
+// Task 4
+// Task 5
+// Task 6
+// Task 8
+// Task 9
+// Task 10
+// Task 11
+// Task 12
+// Task 13
+// Task 14
+
+// ====== Chap 35-37  =======//
+
+// Task 1
+// function firstLine(){
+// alert("Welcome to Advance JavaScript")
+// }
+
+// Task 2
+// function askName() {
+//     var userName = prompt("Enter name");
+//     return userName;
+// }
+
+// var name = askName();
+// console.log("User name:", name);
+
+
+// Task 3
+// function playAll(){
+//     firstLine()
+//     askName()
+// }
+// playAll()
+
+// Task 4
+// function askName() {
+//     var userName = prompt("Enter name");
+//     alert("This is : "+ userName)
+// }
+
+// askName();
+
+// Task 5
+// function concat(name,string,num) {
+//     console.log(name + string + num);
+// }
+// var name = "abeer";
+// concat(name,"number",3254678);
+
+// Task 6
+// function concat(name,num) {
+//     console.log(name + num);
+// }
+// var name = "abeer";
+// concat(name,25);
+
+// Task 7
+// function multiply(num1,num2,num3) {
+//     var multiplyBy = num1 * num2 * num3;
+//     console.log(multiplyBy);
+// }
+// multiply(2,2,2);
+
+// Task 8
+// var input = [2, 345, 66, 0, 1, 8, 28, 4];
+
+// function findAverageNumbers(arr) {
+//     var sum = 0;
+//     for (var i = 0; i < arr.length; i++) {
+//         sum += arr[i];
+//     }
+//     var avgNumbers = sum / arr.length;
+//     return avgNumbers;
+// }
+
+// var avg = findAverageNumbers(input);
+// console.log("Average:", avg);
+
+// Task 9
+// function calcAmount(wholessalePrice, profit) {
+//   totalPrice = wholessalePrice + profit;
+//   return totalPrice;
+// }
+// var p1 = calcAmount(800, 200);
+// var p2 = calcAmount(400, 100);
+//  console.log("Sale Price: ",p1,"Sale Price: ",p2)
+    
+// Task 10
+// var input = [10, 30, 600, 00, 25, 81, 32, 4];
+    
+// function findAverageNumbers(arr) {
+//     var sum = 0;
+//     for (var i = 0; i < arr.length; i++) {
+//         sum += arr[i];
+//     }
+//     var avgNumbers = sum / arr.length;
+//     return avgNumbers;
+// }
+    
+// var avg = findAverageNumbers(input);
+// console.log("Average:", avg);
+    
+// Task 11
+/*  yes we have to capture like task 10 and many examples practice 
+ in the class task.
+*/
+
+// Task 12
+// var word = "Hello"
+        // function letterCount(){
+        //         var len = word.length
+        //         return len
+        //         }
+        //         var wordLen = letterCount()
+        //         console.log(wordLen)
+
+// Task 13
+// function setYear() {
+//     var year = new Date();
+//     year.setFullYear(1998);
+//     console.log("25years ago :" + year)
+// }
+// setYear()
+
+// Task 14
+// function calculateAge(dateOfBirth) {
+//     var dob = new Date(dateOfBirth);
+//     var currentDate = new Date();
+//     console.log("currentDate: "+ currentDate);
+//     var age = currentDate.getFullYear() - dob.getFullYear();
+
+//     return age;
+
+// }
+// var dateOfBirth = "2001-01-25"; // Example date of birth in yyyy-mm-dd format
+// var age = calculateAge(dateOfBirth);
+// console.log("Age:", age);
+
+// Task 15
+// var array = ['zaid','haris','raza','abubakar','hassan','hussain','fatima']
+// function find() {
+// found = false
+//     for (var i = 0; i < array.length; i++) {
+//         var word = array[i];
+
+//         if (word === 'abubakar') {
+//             found = true;
+//             break;
+//         }else {
+//         }
+//     }
+//     console.log(found);
+// }
+
+// find();
+
+// Task 16.1
+//hint example
+// function repeatStr() { 
+// var str = "abcde" 
+// console.log(str.repeat(10))
+// }
+
+// repeatStr()
+
+// Task 16.2
+// own way
+// var str = "abcde"
+// function repeatStr(str) {
+//     for (var i = 0; i < 10; i++) {
+//         var letter = str;
+//         console.log(letter)
+//     }
+// }
+// repeatStr(str)
+
+// Task 17
+// var array = ['a','b','c','d','e'] 
+// function reverseArray(array) { 
+// var reverse = array.reverse(); 
+// console.log(reverse)
+// }
+
+// reverseArray(array)
